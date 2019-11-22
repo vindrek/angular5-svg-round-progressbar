@@ -1,6 +1,6 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DOCUMENT, DomSanitizer, BrowserModule } from '@angular/platform-browser';
+import { DOCUMENT, DomSanitizer } from '@angular/platform-browser';
 
 import { RoundProgressComponent } from './round-progress.component';
 import { SafeHtmlPipe } from './safeHtml.pipe';
@@ -16,8 +16,7 @@ export * from './round-progress.config';
 
 @NgModule({
   imports: [
-    CommonModule,
-    BrowserModule
+    CommonModule
   ],
   declarations: [
     RoundProgressComponent,

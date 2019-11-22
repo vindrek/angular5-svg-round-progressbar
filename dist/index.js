@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Inject, Injectable, Input, NgModule, NgZone, Optional, Output, Pipe, Renderer, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BrowserModule, DOCUMENT, DomSanitizer } from '@angular/platform-browser';
+import { DOCUMENT, DomSanitizer } from '@angular/platform-browser';
 
 /**
  * @fileoverview added by tsickle
@@ -1267,8 +1267,7 @@ var RoundProgressModule = (function () {
     RoundProgressModule.decorators = [
         { type: NgModule, args: [{
                     imports: [
-                        CommonModule,
-                        BrowserModule
+                        CommonModule
                     ],
                     declarations: [
                         RoundProgressComponent,
